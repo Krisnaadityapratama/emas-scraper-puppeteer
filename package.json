@@ -1,0 +1,11 @@
+{
+  "name": "emas-scraper-puppeteer",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^126.0.0",
+    "puppeteer-core": "^22.0.0"
+  }
+}
