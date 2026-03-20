@@ -1,11 +1,17 @@
 {
-  "name": "emas-scraper-puppeteer",
+  "name": "antam-monitor",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vercel dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "puppeteer-core": "^23.0.0",           
-    "@sparticuz/chromium-min": "^141.0.0" 
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
